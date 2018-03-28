@@ -6,6 +6,10 @@
     padding:8px 10px;
     cursor:pointer;
   }
+  #create_task[disabled="true"] {
+    opacity:.5;
+    cursor: not-allowed;
+  }
   .modal_box {
     width:500px;
     height:500px;
